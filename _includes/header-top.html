@@ -3,8 +3,10 @@
  			<div class="row">
  				<div class="col-md-8">
  					<ul class="mailing">
-						<li><a href="mailto:madhumitha.sekar@cripumps.com">madhumitha.sekar@cripumps.com</a></li>
-						<li><a href="tel:+91 5757900865">+91 5757900865</a></li>
+ 					{% for header-top in site.data.header-top %}
+						<li><a href="mailto:{{header-top.mailid}}"></a></li>
+						<li><a href="tel:{{header-top.phone-number}}"></a></li>
+						{% endfor %}
 					</ul>
 				</div>
 				<div class="col-md-4">
