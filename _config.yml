@@ -1,0 +1,40 @@
+# site setting
+title: six
+baseurl: /six
+tagline: Sample Optin Form
+banner-heading: BE YOUR OWN
+banner-bold: BOSS  
+banner-subline: When your team needs to kick off a project, hire a new employee, deploy some code, review a sales contract, finalize next years budget.
+banner-image: boss.png
+#banner contact information
+contact-number: +91 456 789 654
+ #About section
+product-image: d2.jpg
+about-heading: WHY CHOOSE US
+
+#slider-product image
+slider-heading: Real Estate Properties
+slider-subcontent: Look at the list of properties we are offering right now
+product-one: slide1.jpg
+product-two: slide1.jpg
+product-three: slide1.jpg
+
+#contact content
+contact-subcontent:
+
+markdown: kramdown
+exclude: ['README.md']
+permalink: pretty #to remove .html
+
+#sociallinks
+facebook_username: Hatkit-Credit-Repair-1887916628195003
+twitter_username: hatkit83   
+instagram_username: crigroups
+youtube_username: crigroups
+google-plus_username: u/0/109075708523313177474
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+include: ['_pages']
+

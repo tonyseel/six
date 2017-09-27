@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th {
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/* [disabled]font-size:100%; */
+	background: transparent;
+	margin: 0px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.clear {
+	clear: both;
+	height:0;
+	overflow:hidden
+}
+.clearfix:after {
+	content:".";
+	height:0;
+	display:block;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix {
+	display:inline-block;
+}
+/* Hide from IE Mac \*/
+.clearfix {
+	display:block;
+}
+a:hover, a:focus {
+	text-decoration:none!important
+} 
+
+
+@font-face {
+	font-family: 'apexnewbookwebfont';
+	src: url('../fonts/apexnewbookwebfont.eot');
+	src: local('../fonts/apexnewbookwebfont'), url('../fonts/apexnewbookwebfont.woff') format('woff'), url('../fonts/apexnewbookwebfont.ttf') format('truetype');
+}
+
+body{font-family: 'Roboto', sans-serif; font-size: 16px;  line-height: 28px;color: #555; }
+a{ font-size: 17px;
+    font-family: Roboto;
+    line-height: 28px;color:#fff!important}
+p{ font-size: 16px; font-family: 'Roboto'; line-height: 28px; color: #555;}
+h1{ font-size:36px;font-family: 'Roboto', sans-serif;    font-weight: bold;}
+h2{ font-size:30px;font-family: 'Roboto', sans-serif;    font-weight: bold;}
+h3{ font-size:26px;font-family: 'Roboto', sans-serif;    font-weight: bold;}
+h4{ font-size:20px;font-family: 'Roboto', sans-serif;    font-weight: bold;}
+
+/*FONTS*/
+/* nav section start*/
+.headersec{width:100%;display:inline-block}
+.header-top{background-color:#00134c;padding:12px}
+.mailing li{display:inline-block}
+.social a.bloglink{width:inline-block;    width: auto;
+    height: auto;}
+.social a.bloglink span{margin-left: 5px;}
+.social a{display: inline-block;
+    text-align: center;
+    line-height: 34px;
+    margin-left: 7px;width:35px;height:35px;border-radius:50%}
+
+.social a:nth-child(2){background-color:#1e99fb}
+.social a:nth-child(3){background-color:#09AEC9}
+.social a:nth-child(4){background-color:#c90935}
+.social a:nth-child(5){background-color:#0096da}
+.header-bottom{background:#99ccff;display:inline-block;width:100%;padding: 10px 0px;margin-bottom: -9px;}
+/* nav section ends*/
+/*banner section start*/
+.banner-secion{width:100%;display:inline-block;background: url(../image/banner.jpg) no-repeat;position:relative;
+	background-size:cover;overflow:hidden;    height: 520px;}
+.overlay{    position: absolute;
+    width: 100%;
+    display: inline-block;}
+.bginner{text-align: center;
+   z-index: 1;
+    padding: 15%;}
+.bginner h4{font-size: 25px;
+    color: #fff;}
+.bginner a{background-color: #00aded;
+    padding: 11px 24px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 20px;}
+.bannerbottom{bacKground:#00134c;display:inline-block;width:100%;padding:20px;margin-top:-5px}
+.bannerbottom h5{color: #e0dede;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;}
+.bannerbottom input{    width: 100%;
+    display: inline-block;
+    padding: 14px;
+    border-radius: 4px;
+    border: 1px solid #000;}
+.bannerbottom input[type="submit"]{background:#00aded;color:#fff;display: inline-block;font-size:18px}
+/*banner section ends*/
+/*about section start*/
+.aboutsection{width:100%;display:inline-block;padding:60px 0}
+.aboutsection img{border-radius:10px;
+box-shadow: 0px -1px 32px 22px #DDDDDD;
+-webkit-box-shadow: 0px -1px 32px 22px #DDDDDD;
+-moz-box-shadow: 0px -1px 32px 22px #DDDDDD;
+-o-box-shadow: 0px -1px 32px 22px #DDDDDD;
+}
+.aboutpoint {width:100%;display:inline-block;text-align:left;margin-bottom:20px}
+.aboutpoint li{position: relative;
+    padding-left: 25px;
+        margin-top: 18px;}
+.aboutpoint li:before{position: absolute;
+    content: "\f13d";
+    font-family: FontAwesome;
+    color: #03A9F4;
+    font-size: 18px;
+    left: 0;}
+.satelist{width:100%;display:inline-block;margin-top:30px}
+.satelist li{float: left;
+    display: inline-block;
+    background-color: #D80244;
+    padding: 0px 22px 5px;
+    margin: 11px 5px;
+    border-radius: 5px;box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.21)}
+.satelist li:nth-child(2){background-color:#3630D5;}
+.satelist li:nth-child(3){background-color:#EB450E}
+.satelist li:nth-child(4){background-color:#11ADEF;}
+.satelist li:nth-child(5){background-color:#5C15F1;}
+.satelist li:nth-child(6){background-color:#D0A50D;}
+.satelist li:nth-child(6){background-color:#ED0303;}
+.satelist li h3{display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;font-family: 'Roboto',}
+
+/*about section ends*/
+/*product section start*/
+.product p{text-align:center;margin-bottom: 35px;
+    font-size: 20px;
+    color: #00134c;}
+.productdetail{background:#fff;display:inline-block;width:100%;box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.21);padding:10px}
+.product{background-color:#f5f5f5;width:100%;display:inline-block;padding:40px}
+.prod img{width:100%;display:inline-block}
+.prodtab{margin-top:10px}
+.prodtab table{width:100%;display:table}
+.prodtab table td{padding: 5px;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    font-size: 17px;
+    color: #717070;
+    text-align: center;}
+
+.text-center a{padding: 10px 47px;
+    display: inline-block;
+    font-size: 18px;
+    background: #00134c;
+    margin-top: 20px;
+    border-radius: 4px;}
+
+/*product section ends*/
+/*contactform section start*/
+.contactform{width:100%;display:inline-block;text-align: center;padding:50px}
+.contactform h2{    color: #00134c;
+    font-size: 32px;
+}
+
+.contactform h2:after{content: '';
+    height: 2px;
+    width: 4%;
+    background: #99ccff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19px;}
+
+/*formarea*/
+.innercontatc{display: inline-block;
+    background: #cce2f9;
+    padding: 40px 35px 20px;
+    margin: 30px 0 0;
+    max-width: 850px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.12);
+}
+
+.innercontatc p {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 35px;
+  
+}
+
+.innercontatc input, .innercontatc textarea {display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d8d3d3;
+    color: #333;
+	border-radius: 5px;}
+.innercontatc textarea{height:128px;resize:none}
+.innercontatc input[type=submit]{ width: 100%;
+    padding: 10px;
+    background: #00134c;
+    color: #333;
+	border-radius: 5px;color:#fff}
+/*formarea*/
+/*contactform section start*/
+
+/*--footer area start--*/
+.footerarea{width:100%;display:inline-block;background: url(../image/footer_bottom.jpg) no-repeat center top;
+	background-size:cover;height:500px;padding:55px 0}
+.socila a {background: #3A5899;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 11px 13px;
+    margin-left: 10px;
+    line-height: 0px;font-size:20px;display:inline-block;
+}
+.socila a:nth-child(2){background:#00ADED}
+.socila a:nth-child(3){background:#DD4A38}
+.socila a:nth-child(4){background:#007AB7}
+.whatapp a{padding: 10px 47px;
+    display: inline-block;
+    font-size: 18px;
+    background: #00134c;
+    margin-top: 20px;
+    border-radius: 4px;
+    max-width: 295px;
+    border-radius: 5px;
+    text-align: left;background: #00134c url(../image/whatsapp_header.png) no-repeat 15px;    padding-left: 73px;}
+.footerlink a {
+    color: #fff;
+    background: none;
+    padding: 5px 10px;
+    border-left: 1px solid #fff;
+    line-height: 8px;
+	border-radius: 0px;}
+.footerlink a:first-child {border-left:none}
+.footerarea p{color:#fff;font-size:17px;margin-top:18px}
+/*--footer area ends--*/
+
