@@ -1,11 +1,12 @@
 <div class="product">
 	<div class="container">
-		<p>We take pride in saying that we have built a boat to the Ex-Indian Navy officer.</p>
+	{% for product-section in site.data.product-section %}
+		<p>{{product-section.product-title}}</p>
 		<div class="row">
 			<div class="col-md-4">
 			<div class="productdetail">
 				<div class="prod">
-					<a href="#"><img src="image/port1.jpg"/></a>		
+					<a href="#"><img src="image/{{product-section.product-image-one}}"/></a>		
 			    </div>
 			   
 				</div>
@@ -13,7 +14,7 @@
 			<div class="col-md-4">
 			<div class="productdetail">
 				<div class="prod">
-					<a href="#"><img src="image/port1.jpg"/></a>		
+					<a href="#"><img src="image/{{product-section.product-image-two}}"/></a>		
 			    </div>
 
 				</div>
@@ -21,14 +22,14 @@
 	        <div class="col-md-4">
 	         <div class="productdetail">
 				<div class="prod">
-					<a href="#"><img src="image/port1.jpg"/></a>		
+					<a href="#"><img src="image/{{product-section.product-image-three}}"/></a>		
 			    </div>
 			    
 				</div>
 			</div>
 		</div>
 		<div class="text-center">
-			<a href="#">View our other project</a>
+			<a href="{{product-section.product-button-url}}">{{product-section.product-button}}</a>
 		</div>
  </div>
 </div>
