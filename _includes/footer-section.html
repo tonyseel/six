@@ -6,8 +6,10 @@
 			<a href="#"><i class="fa fa-google-plus"></i></a>
 			<a href="#"><i class="fa fa-linkedin"></i></a>
 		</div>
+		{% for footer-section in site.data.footer-section %}
 		<div class="whatapp"><a href="intent{{footer-section.footer-phonenumber}}#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">{{footer-section.footer-phonenumber}}
 		<span>Whatapp requirement</span></a> </div>
+		{% endfor %}
 	</div>
 	
 	<div class="footerlink">
