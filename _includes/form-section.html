@@ -1,22 +1,24 @@
 <section class ="contactform">
 	<div clas="container">
-		<h2>Quality steel boat manufactures in Mangalore</h2>
-		<p>We assure project delivery on time with great customer satisfaction </p>
-	   <p>we are ready to build customized steel boats for your fishing business</p>
+	   {% for form-section in site.data.form-section %}
+		<h2>{{form-section.contact-title}}</h2>
+		<p>{{form-section.contact-subline}}</p>
+	  
 	   <div class="innercontatc">
-	  <form class="contact_form" method="post" action="">
+	  <form class="contact_form" method="post" action="{{form-section.form-action}}">
 	  	<div class="row">
 	  		<div class="col-md-6">
 				<p><input type="text" placeholder="Enter your Name"></p>
-				<p><input type="text" placeholder="Enter your Email"></p>
-				<p><input type="text" placeholder="Enter your Name"></p>
+				<p><input type="email" placeholder="Enter your Email"></p>
+				<p><input type="number" placeholder="Enter your Name"></p>s
 			</div>
 			<div class="col-md-6">
 				<p><textarea placeholder="Enter your message"></textarea></p>
-				<p><input type="submit" placeholder="Enter your Name"></p>
+				<p><input type="submit" value="Send message"></p>
 			</div>
 		  </div>
 		</form>
 		</div>
+		{% endfor %}
 	</div>
 	</section>
