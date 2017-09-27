@@ -4,8 +4,8 @@
  				<div class="col-md-8">
  					<ul class="mailing">
  					{% for header-top in site.data.header-top %}
-						<li><a href="mailto:{{ header-top.mailid }}"></a></li>
-						<li><a href="tel:{{ header-top.phone-number }}"></a></li>
+						<li><a href="mailto:{{ header-top.mailid }}">{{ header-top.mailid }}</a></li>
+						<li><a href="tel:{{ header-top.phone-number }}">{{ header-top.phone-number }}</a></li>
 						{% endfor %}
 					</ul>
 				</div>
