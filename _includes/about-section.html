@@ -1,6 +1,4 @@
-<section class="aboutsection">
-		<div class="container">
-			<div class="row">
+<div class="row">
 			{% for about-section in site.data.about-section %}
 				<div class="col-md-7">
 					<p>{{about-section.about-content}}</p>
@@ -16,15 +14,4 @@
 				</div>
 				{% endfor %}
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<ul class="satelist"> 
-                      {% for about-section in site.data.about-section %}
-						<li><h3>{{about-section.state}}</h3></li>
-						{% endfor %}
-
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
+			
