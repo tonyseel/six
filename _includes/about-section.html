@@ -10,15 +10,16 @@
 						<li><p>{{about-section.point-three}}</p></li>
 					</ul>
 				</div>
-				{% endfor %}
+				
 				<div class="col-md-5">
 				  <img src="{{site.baseurl}}/image/{{about-section.about-image}}" alt="steel boar manufacture">
 				</div>
+				{% endfor %}
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="satelist"> 
-                      {% for about-section in site.data.about-section%}
+                      {% for about-section in site.data.about-section %}
 						<li><h3>{{about-section.state}}</h3></li>
 						{% endfor %}
 
