@@ -2,8 +2,8 @@
 title: six
 baseurl: /six
 tagline: Sample Optin Form
-
-
+banner-title: Are you looking for quality?
+banner-url: #
 markdown: kramdown
 exclude: ['README.md']
 permalink: pretty #to remove .html
