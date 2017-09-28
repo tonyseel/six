@@ -10,7 +10,7 @@ title: Blog
 </div>
 </div>
 <ul class="posts-archive">
-   {% for post in paginator.posts %}
+   
      {% if post.categories contains 'blog' %}
     <li>
         <div class="post-thumb">
@@ -28,7 +28,7 @@ title: Blog
         <div class="cleaner">&nbsp;</div>
     </li>
      {% endif %}
-   {% endfor %}
+   
 </ul>
 
     {% if paginator.total_pages > 1 %}
