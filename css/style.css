@@ -358,3 +358,8 @@ span.more {
 
 span.more a{color: #cf2626!important;font-size: 16px}
 /*--blog  page end --*/
+/*--inner-page area ends--*/
+.inner-page{margin:40px 0px;width:100%;display:inline-block}
+.inner-page img{width:100%;display:inline-block}
+.inner-page p{font-size: 16px; font-family: 'Roboto'; line-height: 28px; color: #555;}
+.inner-page h3{font-size:30px;font-family: 'Roboto', sans-serif;    font-weight: bold;text-align:left;margin-top:0px;color:#00134c}
