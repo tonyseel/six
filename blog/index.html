@@ -21,7 +21,7 @@ title: Blog
                 <span><time datetime="2015-08-13" pubdate class="blog">{{post.date | date:"%B %-d, %Y"}}</time></span>
             </p>
            <a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{{site.baseurl}}{{post.url}}"> <h2 class="blog">{{post.title}} </h2></a>
-            <p>{{post.excerpt | strip_html | truncatewords:28 }}</p>
+            <p>{{post.excerpt | strip_html | truncatewords:60 }}</p>
             <span class="more"><a href="{{site.baseurl}}{{post.url}}">continue reading &rarr;</a></span>
         </div>
         <!-- end .post-excerpt -->

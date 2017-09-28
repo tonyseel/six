@@ -12,7 +12,7 @@ gems:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-  #Gems
+#Gems
 gems: [jekyll-paginate]
 paginate: 60
 paginate_path: "/blog/page:num/"
