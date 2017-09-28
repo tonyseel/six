@@ -300,3 +300,56 @@ box-shadow: 0px -1px 32px 22px #DDDDDD;
 .footerarea p{color:#fff;font-size:17px;margin-top:18px}
 /*--footer area ends--*/
 
+/*--blog page start --*/
+div.intro-archives {
+    border-bottom: solid 1px #eee;
+    margin: 10px 0 20px;
+    padding: 0 0 20px;
+}
+.h1 title title-large{
+    margin-bottom: 12px;
+    margin-top: 18px;
+}
+div.category-excerpt p {
+    font-size: 15px;
+    line-height: 1.6em;
+}
+ul.posts-archive li {
+    border-bottom: solid 1px #eee;
+    padding-bottom: 20px;
+}
+div.post-thumb {
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    width: 140px;
+}
+div.post-excerpt {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.75em;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+div.blog p {
+    color: #666;
+    font-size: 14px;
+    font-family: Arial, Tahoma, sans-serif;
+}
+div.blog time {
+    color: #999;
+    font-size: 12px;
+}
+div.blog h2 {
+    color: #000;
+}
+span.more {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+
+/*--blog  page end --*/
