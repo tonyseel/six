@@ -102,6 +102,12 @@ h4{ font-size:20px;font-family: 'Roboto', sans-serif;    font-weight: bold;}
 .bginner{text-align: center;
    z-index: 1;
     padding: 15%;}
+    .bannerbottom p.bigs{color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 28px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.39);
+    font-weight: bold;
+    text-align: center;}
 .bginner h4{font-size: 25px;
     color: #fff;}
 .bginner a{background-color: #00aded;
@@ -124,6 +130,16 @@ h4{ font-size:20px;font-family: 'Roboto', sans-serif;    font-weight: bold;}
 /*banner section ends*/
 /*about section start*/
 .aboutsection{width:100%;display:inline-block;padding:60px 0}
+.aboutsection h1{    color: #00134c;
+    margin: 0 0 30px;
+    text-align: center;
+    font-weight: 600;}
+.aboutsection h1:after{content: '';
+    background: #09ADCF;
+    height: 1px;
+    width: 7%;
+    display: block;
+    margin: 10px auto;}
 .aboutsection img{border-radius:10px;
 box-shadow: 0px -1px 32px 22px #DDDDDD;
 -webkit-box-shadow: 0px -1px 32px 22px #DDDDDD;
