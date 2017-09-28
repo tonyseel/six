@@ -102,7 +102,7 @@ h4{ font-size:20px;font-family: 'Roboto', sans-serif;    font-weight: bold;}
 .bginner{text-align: center;
    z-index: 1;
     padding: 15%;}
-    .bannerbottom p.bigs{color: #ffffff;
+.bannerbottom p.bigs{color: #ffffff;
     margin-bottom: 5px;
     font-size: 28px;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.39);
@@ -156,7 +156,10 @@ box-shadow: 0px -1px 32px 22px #DDDDDD;
     color: #03A9F4;
     font-size: 18px;
     left: 0;}
-.satelist{width:100%;display:inline-block;margin-top:30px}
+.satelist{width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 42px 45px 0;}
 .satelist li{float: left;
     display: inline-block;
     background-color: #D80244;
@@ -176,6 +179,16 @@ box-shadow: 0px -1px 32px 22px #DDDDDD;
 
 /*about section ends*/
 /*product section start*/
+.product h1{ color: #00134c;
+    margin: 0 0 30px;
+    text-align: center;
+  font-weight:700}
+.product h1:after{content: '';
+    background: #09ADCF;
+    height: 1px;
+    width: 7%;
+    display: block;
+    margin: 10px auto;}
 .product p{text-align:center;margin-bottom: 35px;
     font-size: 20px;
     color: #00134c;}
