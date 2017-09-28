@@ -1,5 +1,7 @@
+{% for about-section in site.data.about-section %}
+<h1>{{about-section.about-title}} </h1>
 <div class="row">
-			{% for about-section in site.data.about-section %}
+			
 				<div class="col-md-7">
 					<p>{{about-section.about-content}}</p>
 					<ul class="aboutpoint">
@@ -12,6 +14,6 @@
 				<div class="col-md-5">
 				  <img src="{{site.baseurl}}/image/{{about-section.about-image}}" alt="steel boar manufacture">
 				</div>
-				{% endfor %}
+				
 			</div>
-			
+{% endfor %}		
