@@ -336,17 +336,17 @@ div.post-excerpt {
 div.blog p {
     color: #666;
     font-size: 14px;
-    font-family: Arial, Tahoma, sans-serif;
+    font-family: Arial, Tahoma, sans-serif;padding:0px;
 }
 div.blog time {
     color: #c90935;
     font-size: 12px;
 }
 ul.posts-archive h2 {
-    font-size: 16px;
+    font-size: 30px;
     font-weight: bold;
     display: inline;
-    line-height: 2.7em;
+    line-height: 2.7em;color:#00134c!important
 }
 span.more {
     display: block;
