@@ -6,9 +6,9 @@
     background-color:#00134c;
     color: #fff;
     padding: 11px;}
-	.resmenu ul li a{font-size:18px;color: #F71C20;font-family:'FaunaOne-Regular'}
+	.resmenu ul li a{font-size:18px;color:#9cf;font-family:'FaunaOne-Regular'}
 	.resmenu ul li a:hover{font-size:18px;color: #fff;font-family:'FaunaOne-Regular'}
-	 .resmenu ul {background: #F1DDBC;display:block}   
+	 .resmenu ul {background: #00134c;display:block}   
      .resmenu ul li {border-bottom:1px solid #fff;padding:10px;}
 	 .responsive-menu i{color:#fff\9}
 	
@@ -20,12 +20,12 @@
 @media only screen and (min-width:768px) and (max-width:1024px)
 {
 	.responsive-menu i{font-size: 21px!important;
-    background-color: #F71C20;
-    color: #F1DDBC;
+    background-color: #00134c;
+    color: #fff;
     padding: 11px;}
-	.resmenu ul li a{font-size:18px;color: #F71C20;font-family:'FaunaOne-Regular'}
+	.resmenu ul li a{font-size:18px;color: #9cf;;font-family:'FaunaOne-Regular'}
 	.resmenu ul li a:hover{font-size:18px;color: #fff;font-family:'FaunaOne-Regular'}
-	 .resmenu ul {background: #F1DDBC;display:block}   
+	 .resmenu ul {background: #00134c;display:block}   
      .resmenu ul li {border-bottom:1px solid #fff;padding:10px;}
 	 .responsive-menu i{color:#fff\9}
 	
