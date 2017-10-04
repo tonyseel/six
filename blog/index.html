@@ -13,13 +13,13 @@ title: Blog
    {% for post in paginator.posts %}
      {% if post.categories contains 'blog' %}
     <li>
-        <div class="post-thumb">
+        <div class="post-thumb col-md-3">
             <a href="{{site.baseurl}}{{post.url}}" title="{{post.title}}"><img src="{{site.baseurl}}/image/{{post.image}}" alt="{{post.title}}" class="Thumbnail thumbnail loop-main " width="291" height="176" /></a>
              <p class="postmetadata blog">
                 <span><time datetime="2015-08-13" pubdate class="blog">{{post.date | date:"%B %-d, %Y"}}</time></span>
             </p>
         </div>
-        <div class="post-excerpt blog">
+        <div class="post-excerpt blog col-md-9">
            
            <a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{{site.baseurl}}{{post.url}}"> <h2 class="blog">{{post.title}} </h2></a>
             <p>{{post.excerpt | strip_html | truncatewords:60 }}</p>
