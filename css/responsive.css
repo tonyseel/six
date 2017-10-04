@@ -24,8 +24,8 @@
     .contactform h2 {font-size: 25px;}
 	.contactform h2{font-size:20px;font-weight:700}
 	.contact_form p{margin-bottom:5px}
-	div.post-excerpt h2{font-size: 20px;line-height:10px;}
-	.inner-page h3{font-size:20px;}
+	div.post-excerpt h2{font-size: 23px;line-height:10px;}
+	.inner-page h3{font-size:23px;}
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px)
