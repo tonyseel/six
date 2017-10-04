@@ -17,6 +17,7 @@
 	.aboutsection img{width:100%;display:inline-block}
 	.aboutsection h1{font-size: 25px;}
     .product h1 {font-size: 25px;}
+    .contactform {padding:0px;}
     .contactform h2 {font-size: 25px;}
 	.contactform h2{font-size:20px;font-weight:700}
 	.contact_form p{margin-bottom:5px}
