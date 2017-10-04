@@ -14,9 +14,12 @@
 	
 	.inner-bottom h2{text-align:center;}
 	.bginner p.bigs{line-height:1.4em;font-size:40px;}
+	.aboutsection {padding:30px 0;}
 	.aboutsection img{width:100%;display:inline-block}
 	.aboutsection h1{font-size: 25px;}
+	.aboutsection {padding:0px;}
     .product h1 {font-size: 25px;}
+    .productdetail{margin-bottom: 10px}
     .contactform {padding:0px;}
     .contactform h2 {font-size: 25px;}
 	.contactform h2{font-size:20px;font-weight:700}
@@ -34,7 +37,20 @@
 	 .resmenu ul {background: #00134c;display:block}   
      .resmenu ul li {border-bottom:1px solid #fff;padding:10px;}
 	 .responsive-menu i{color:#fff\9}
+	 
+   .inner-bottom h2{text-align:center;}
+	.bginner p.bigs{line-height:1.4em;font-size:40px;}
+	.aboutsection {padding:30px 0;}
+	.aboutsection img{width:100%;display:inline-block}
 	
+	.aboutsection {padding:0px;}
+    
+    .productdetail{margin-bottom: 10px}
+    .contactform {padding:0px;}
+    
+	
+	.contact_form p{margin-bottom:5px}
+
 	
 	
 }
