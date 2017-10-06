@@ -101,7 +101,7 @@ h4{ font-size:20px;font-family: 'Roboto', sans-serif;    font-weight: bold;}
 .header-bottom .menu li a{font-size:21px;color:#00134c!important;}
 /* nav section ends*/
 /*banner section start*/
-.banner-secion{width:100%;display:inline-block;background: url(../image/banner.jpg) no-repeat;position:relative;
+.banner-secion{width:100%;display:inline-block;position:relative;
 	background-size:cover;overflow:hidden;    height: 520px;}
 .overlay{    position: absolute;
     width: 100%;
