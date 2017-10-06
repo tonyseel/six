@@ -77,7 +77,7 @@ h4{ font-size:20px;font-family: 'Roboto', sans-serif;    font-weight: bold;}
 /*FONTS*/
 /* nav section start*/
 .headersec{width:100%;display:inline-block}
-.header-top{background-color:#00134c;padding:12px}
+.header-top{background-color:#4c778c;padding:12px}
 .mailing li{display:inline-block}
 .social a.bloglink{width:inline-block;    width: auto;
     height: auto;}
@@ -91,7 +91,7 @@ h4{ font-size:20px;font-family: 'Roboto', sans-serif;    font-weight: bold;}
 .social a:nth-child(3){background-color:#09AEC9}
 .social a:nth-child(4){background-color:#c90935}
 .social a:nth-child(5){background-color:#0096da}
-.header-bottom{background:#99ccff;display:inline-block;width:100%;padding: 10px 0px;margin-bottom: -9px;}
+.header-bottom{background:#fff;display:inline-block;width:100%;padding: 10px 0px;margin-bottom: -9px;}
 .header-bottom .menu{float:right;display:inline-block;}
 .header-bottom .menu li{float:left;padding:10px;}
 .header-bottom .menu li.active{background-color: #00134c;
