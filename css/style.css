@@ -36,7 +36,7 @@ table {
 }
 .clear {
 	clear: both;
-	height:0;
+	
 	overflow:hidden
 }
 .clearfix:after {
