@@ -372,6 +372,18 @@ span.more a{color: #cf2626!important;font-size: 16px}
 #fof .fl_right #respond input{width:200px; padding:5px; border:1px solid #CCCCCC;}
 #fof .fl_right #respond #submit{width:auto;}
 /*--404 inner-page area ends--*/
+/*--inner-product page start--*/
+.productwrapper{padding:30px 0px}
+.productwrapper h2{font-size:30px;color:#524f4f;text-align:left}
+.productwrapper ul {width:100%;display:inline-block;padding:0px;}
+.productwrapper ul li {
+    float: left;
+    width: 32%;
+    padding: 5px 5px;
+    display: inline-block;
+}
+.productwrapper ul li img{width:100%}
+/*--inner-product page start--*/
 .container {
     width: 1038px\9;
     margin: 0 auto\9

@@ -1,0 +1,25 @@
+---
+layout: default
+title: product
+permalink: /products/
+---
+
+<!--innerpage product sectiomnstart-->
+<div class="product-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			 <div class="productwrapper">
+				 <h2>Our Products</h2>
+			    <ul>
+					{% for image in site.data.innerproduct-section %}
+					   <li><img src="{{site.baseurl}}/image/{{image.product-image}}"></li>
+                    {% endfor %}
+				 </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--innerpage product section ends-->
